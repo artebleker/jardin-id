@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/jardin-id/static/css/main.1a8a0596.css",
+    "main.js": "/jardin-id/static/js/main.bc505785.js",
+    "static/media/foto6.jpg": "/jardin-id/static/media/foto6.ec767cfa10b89440905c.jpg",
+    "static/media/foto3.jpg": "/jardin-id/static/media/foto3.28a46b0a0c73f01325ed.jpg",
+    "static/media/foto4.jpg": "/jardin-id/static/media/foto4.e42e77f403d1aee4678b.jpg",
+    "index.html": "/jardin-id/index.html",
+    "main.1a8a0596.css.map": "/jardin-id/static/css/main.1a8a0596.css.map",
+    "main.bc505785.js.map": "/jardin-id/static/js/main.bc505785.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1a8a0596.css",
+    "static/js/main.bc505785.js"
+  ]
+}
