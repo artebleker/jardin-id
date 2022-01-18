@@ -1,6 +1,6 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
-
+import "./navbar.css"
 export default function NavBar() {
   return (
     <>
@@ -11,17 +11,17 @@ export default function NavBar() {
       <span className="navbar-toggler-icon"></span>
     </button>
     <div className="collapse navbar-collapse" id="navbarTogglerDemo01">
-      <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-        <li className="nav-item">
+      <ul className="navbar-nav me-auto mb-2 mb-lg-0 ">
+        <li className="btn nav-item">
           <a className="nav-link active" aria-current="page" href="#">Inicio</a>
         </li>
-        <li className="nav-item">
+        <li className=" btn nav-item">
           <a className="nav-link active" href="#proyectos">Proyectos</a>
         </li>
-        <li className="nav-item">
+        <li className="btn nav-item">
           <a className="nav-link active"  href="#directivos">Directivos</a>
         </li>
-        <li className="nav-item">
+        <li className="btn nav-item">
           <a className="nav-link active"  href="#contactenos">Contactenos</a>
         </li>
       </ul>

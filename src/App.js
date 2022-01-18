@@ -5,7 +5,7 @@ import Proyectos from "./components/Main/Proyectos"
 import Directivos from "./components/Main/Directivos"
 import Contactenos from "./components/Footer/Contactenos"
 import "bootstrap/dist/css/bootstrap.min.css";
-
+import "./app.css"
 function App() {
   return (
     <>

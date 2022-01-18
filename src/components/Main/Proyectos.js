@@ -2,6 +2,7 @@ import React from "react";
 import foto3 from "../../asset/proyecto/foto3.jpg";
 import foto4 from "../../asset/proyecto/foto4.jpg";
 import foto6 from "../../asset/proyecto/foto6.jpg";
+import "./proyectos.css"
 export default function Proectos() {
   return (
     <>
@@ -35,13 +36,13 @@ export default function Proectos() {
         </div>
         <div className="carousel-inner">
           <div className="carousel-item active">
-            <img src={foto3} className="d-block w-100" alt="..." />
+            <img src={foto3} className="d-block w-70" alt="..." />
           </div>
           <div className="carousel-item">
-            <img src={foto4} className="d-block w-100" alt="..." />
+            <img src={foto4} className="d-block w-70" alt="..." />
           </div>
           <div className="carousel-item">
-            <img src={foto6} className="d-block w-100" alt="..." />
+            <img src={foto6} className="d-block w-70" alt="..." />
           </div>
         </div>
         <button
