@@ -1,16 +1,21 @@
 {
   "files": {
-    "main.css": "/jardin-id/static/css/main.1a8a0596.css",
-    "main.js": "/jardin-id/static/js/main.bc505785.js",
-    "static/media/foto6.jpg": "/jardin-id/static/media/foto6.ec767cfa10b89440905c.jpg",
-    "static/media/foto3.jpg": "/jardin-id/static/media/foto3.28a46b0a0c73f01325ed.jpg",
-    "static/media/foto4.jpg": "/jardin-id/static/media/foto4.e42e77f403d1aee4678b.jpg",
+    "main.css": "/jardin-id/static/css/main.4d5bceb4.css",
+    "main.js": "/jardin-id/static/js/main.9fda156c.js",
+    "static/media/foto2.jpg": "/jardin-id/static/media/foto2.abc5cced98e6035bab4f.jpg",
+    "static/media/foto6.jpg": "/jardin-id/static/media/foto6.acb654885fd38e2b4f85.jpg",
+    "static/media/foto3.jpg": "/jardin-id/static/media/foto3.5a3b5b7e85d2b1a17247.jpg",
+    "static/media/foto4.jpg": "/jardin-id/static/media/foto4.f9e122c9d74c46158ab9.jpg",
+    "static/media/fondo.png": "/jardin-id/static/media/fondo.76f9c573db2fa775b543.png",
+    "static/media/directivo2.png": "/jardin-id/static/media/directivo2.090550f585a3b95a1ddf.png",
+    "static/media/directivo3.png": "/jardin-id/static/media/directivo3.12e06668f97198eddacd.png",
+    "static/media/directivo1.png": "/jardin-id/static/media/directivo1.42a292a455f50e91d6ed.png",
     "index.html": "/jardin-id/index.html",
-    "main.1a8a0596.css.map": "/jardin-id/static/css/main.1a8a0596.css.map",
-    "main.bc505785.js.map": "/jardin-id/static/js/main.bc505785.js.map"
+    "main.4d5bceb4.css.map": "/jardin-id/static/css/main.4d5bceb4.css.map",
+    "main.9fda156c.js.map": "/jardin-id/static/js/main.9fda156c.js.map"
   },
   "entrypoints": [
-    "static/css/main.1a8a0596.css",
-    "static/js/main.bc505785.js"
+    "static/css/main.4d5bceb4.css",
+    "static/js/main.9fda156c.js"
   ]
 }
