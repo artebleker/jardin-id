@@ -1,7 +1,7 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./navbar.css"
-// hola
+
 export default function NavBar() {
   return (
     <>
@@ -14,16 +14,16 @@ export default function NavBar() {
     <div className="collapse navbar-collapse" id="navbarTogglerDemo01">
       <ul className="navbar-nav me-auto mb-2 mb-lg-0 ">
         <li className="btn nav-item">
-          <a className="nav-link active" aria-current="page" href="#">Inicio</a>
+          <a className="nav-link active fs-4" aria-current="page" href="#">Inicio</a>
         </li>
         <li className=" btn nav-item">
-          <a className="nav-link active" href="#proyectos">Proyectos</a>
+          <a className="nav-link active fs-4" href="#proyectos">Proyectos</a>
         </li>
         <li className="btn nav-item">
-          <a className="nav-link active"  href="#directivos">Directivos</a>
+          <a className="nav-link active fs-4"  href="#directivos">Directivos</a>
         </li>
         <li className="btn nav-item">
-          <a className="nav-link active"  href="#contactenos">Contactenos</a>
+          <a className="nav-link active fs-4"  href="#contactenos">Contactenos</a>
         </li>
       </ul>
     </div>

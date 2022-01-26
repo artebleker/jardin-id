@@ -1,1 +1,14 @@
- 
+.proyectos{
+    margin-top: 20px;
+}
+.descripcion{
+     
+     background-color: rgba(255,255,255,0.63);
+     position: absolute;
+     bottom: 0px;
+     padding: 25px;
+     font-size: large;
+     box-sizing: border-box;
+    
+    }
+  

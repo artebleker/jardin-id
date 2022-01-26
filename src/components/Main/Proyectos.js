@@ -1,15 +1,15 @@
 import React from "react";
-import foto3 from "../../asset/proyecto/foto3.jpg";
-import foto4 from "../../asset/proyecto/foto4.jpg";
-import foto6 from "../../asset/proyecto/foto6.jpg";
 import "./proyectos.css"
-export default function Proectos() {
+import {proyectosData} from "../../utils/proyectosData.js"
+
+ function Proyectos() {
   return (
     <>
-    <article id="proyectos" className="container-fluid">
+    <article id="proyectos" className="container-fluid container proyectos">
+    <h2  className='fs-2 border border-5 border-light text-center container container-fluid'> <b>Proyectos</b></h2>
       <div
         id="carouselExampleIndicators"
-        className="carousel slide"
+        className="carousel slide d-flex p-5"
         data-bs-ride="carousel"
       >
         <div className="carousel-indicators">
@@ -34,15 +34,25 @@ export default function Proectos() {
             aria-label="Slide 3"
           ></button>
         </div>
-        <div className="carousel-inner">
+        
+        <div className="carousel-inner ">
           <div className="carousel-item active">
-            <img src={foto3} className="d-block w-70" alt="..." />
+            <div className=" imgDesc">
+            <p className="descripcion text-wrap fs-6">{proyectosData[0].description}</p>
+            <img src={proyectosData[0].photo} className="d-block w-70 img-fluid" alt="..." />
+            </div>
+            </div>
+          <div className="carousel-item">
+          <div className=" imgDesc">
+            <p className="descripcion text-wrap fs-6">{proyectosData[1].description}</p>
+            <img src={proyectosData[1].photo} className="d-block w-70 img-fluid" alt="..." />
+            </div>
           </div>
           <div className="carousel-item">
-            <img src={foto4} className="d-block w-70" alt="..." />
-          </div>
-          <div className="carousel-item">
-            <img src={foto6} className="d-block w-70" alt="..." />
+          <div className=" imgDesc">
+            <p className="descripcion text-wrap fs-6">{proyectosData[2].description}</p>
+            <img src={proyectosData[2].photo} className="d-block w-70 img-fluid" alt="..." />
+            </div>
           </div>
         </div>
         <button
@@ -50,11 +60,11 @@ export default function Proectos() {
           type="button"
           data-bs-target="#carouselExampleIndicators"
           data-bs-slide="prev"
-        >
+          >
           <span
             className="carousel-control-prev-icon"
             aria-hidden="true"
-          ></span>
+            ></span>
           <span className="visually-hidden">Previous</span>
         </button>
         <button
@@ -62,15 +72,17 @@ export default function Proectos() {
           type="button"
           data-bs-target="#carouselExampleIndicators"
           data-bs-slide="next"
-        >
+          >
           <span
             className="carousel-control-next-icon"
             aria-hidden="true"
-          ></span>
+            ></span>
           <span className="visually-hidden">Next</span>
         </button>
       </div>
       </article>
+      
     </>
   );
 }
+export default Proyectos

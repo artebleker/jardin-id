@@ -1,4 +1,53 @@
-*{
-    margin: 0px;
-    padding:0px;
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.home {
+  background-image: linear-gradient(
+    to top,
+    rgba(255, 255, 255, 0.9),
+    rgb(238, 238, 195) 90%
+  );
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  background-image: url("../../asset/fondo.png");
+}
+
+.fotoHome {
+  height: 90vh !important;
+
+}
+.divHome {
+background-color: rgba(255, 255, 255, 0.383);
+position:absolute;
+bottom: 15vh;
+  right: 45vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+.logoHome {
+  background-color: rgba(255, 255, 255, 0.97);
+  padding: 15px;
+  width: 70vh;
+}
+.logoHome2 {
+  background-color: rgba(255, 255, 255, 0.97);
+  padding: 15px;
+  display: none;
+}
+
+@media screen and (max-width: 730px) {
+  .fotoHome {
+    display: none;
+  }
+  .logoHome{
+    display: none;
+  }
+  .logoHome2{
+    display: inline;
+  }
 }
